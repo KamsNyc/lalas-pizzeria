@@ -4,7 +4,7 @@ import Logo from "./(components)/Logo";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen justify-center my-20 w-full">
+    <main className="flex min-h-screen justify-center my-20 w-full px-2 md:p-4">
 
       <section id="top" className="w-full">
         <Logo />
