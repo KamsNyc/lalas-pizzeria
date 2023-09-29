@@ -15,8 +15,8 @@ export default function Home() {
         <div className="text-center pt-4"> <Link className="py-2 px-4 bg-red-500 rounded-xl cursor-pointer hover:scale-105 ease-in duration-300" href={'/'}>Order Online</Link></div>
 
 
-        <section className="  items-center justify-center py-10">
-          <div className="flex w-full justify-center items-center md:p-10">
+        <section className="  items-center justify-center py-10  p-2 md:p-10">
+          <div className="flex w-full justify-center items-center">
           <Image className="cursor-pointer rounded-xl"
               src="/MenuFront.png"
               width={2550}
@@ -25,7 +25,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex w-full justify-center items-center md:p-10">
+          <div className="flex w-full justify-center items-center md:p-10 pt-8">
           <Image className=" rotate-180 cursor-pointer rounded-xl"
               src="/MenuBack.png"
               width={2550}
