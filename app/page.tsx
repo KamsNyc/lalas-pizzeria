@@ -8,6 +8,7 @@ export default function Home() {
 
       <section id="top" className="w-full">
         <Logo />
+        <p className="text-center pt-4 mb-[-16px] h-bold">HOURS: OPEN 7 DAYS - 11AM - 10PM </p>
         <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#b10000] text-center">Our Menu</h1>
         <p className=" text-lg text-center">215-32 Hillside Ave Queens Village, NY 11426</p>
         <p className="text-md py-2 text-center">Call us (347) 456 3424</p>
