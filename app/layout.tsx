@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+<link rel="icon" href="/favicon.ico" sizes="any" />
 
 const inter = Inter({ subsets: ['latin'] })
 
