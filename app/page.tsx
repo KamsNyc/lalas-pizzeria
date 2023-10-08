@@ -9,14 +9,14 @@ export default function Home() {
       <section id="top" className="w-full">
       <div id="wrapper" className="flex items-center justify-center pb-4">
           <div className="flex gap-10">
-        <Link href={'https://www.instagram.com/lalaspizzeria/'}><Image className=" hover:scale-105 duration-300 ease-in"
+        <Link target="_blank" href={'https://www.instagram.com/lalaspizzeria/'}><Image className=" hover:scale-105 duration-300 ease-in"
         src="/Instagram.png"
         width={48}
         height={48}
         alt="Picture of the author"
       /></Link>
 
-      <Link href={'https://www.facebook.com/profile.php?id=61551944973297'}><Image className=" hover:scale-105 duration-300 ease-in"
+      <Link target="_blank"  href={'https://www.facebook.com/profile.php?id=61551944973297'}><Image className=" hover:scale-105 duration-300 ease-in"
         src="/Facebook.png"
         width={48}
         height={48}
