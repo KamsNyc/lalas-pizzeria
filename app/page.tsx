@@ -5,14 +5,32 @@ import Logo from "./(components)/Logo";
 export default function Home() {
   return (
     <main className="flex min-h-screen justify-center my-20 w-full px-2 md:p-4">
-
+        
       <section id="top" className="w-full">
+      <div id="wrapper" className="flex items-center justify-center pb-4">
+          <div className="flex gap-10">
+        <Link href={'/'}><Image className=" hover:scale-105 duration-300 ease-in"
+        src="/Instagram.png"
+        width={48}
+        height={48}
+        alt="Picture of the author"
+      /></Link>
+
+      <Link href={'/'}><Image className=" hover:scale-105 duration-300 ease-in"
+        src="/Facebook.png"
+        width={48}
+        height={48}
+        alt="Picture of the author"
+      /></Link>
+      </div>
+        </div>
+
         <Logo />
         <p className="text-center pt-4 mb-[-16px] font-bold text-sm md:text-lg">HOURS: OPEN 7 DAYS - 11AM - 10PM </p>
-        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#b10000] text-center">Our Menu</h1>
+        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Our Menu</h1>
         <p></p>
-        <p className=" text-center text-md md:text-lg">Address: 215-32 Hillside Ave Queens Village, NY 11426</p>
-        <p className="text-md py-2 text-center text-md md:text-lg">Call us (347) 456 5287</p>
+        <p className=" text-center text-md md:text-lg text-black font-semibold">Address: 215-32 Hillside Ave Queens Village, NY 11426</p>
+        <p className="text-md py-2 text-center text-md md:text-lg font-extrabold cursor-pointer">Call us (347) 456 5287</p>
 
         <div className="text-center pt-4"> <Link className="py-2 px-4 bg-red-500 rounded-xl cursor-pointer hover:scale-105 ease-in duration-300" href={'/'}>Order Online</Link></div>
 
