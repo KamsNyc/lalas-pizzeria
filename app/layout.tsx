@@ -8,8 +8,8 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lalas Pizzeria | Queens NYC',
-  description: 'Pizzeria Queens Village NY ',
+  title: 'Lalas Pizzeria Pizza 215-32 Hillside Ave Queens Village, NY 11427',
+  description: 'Lalas Pizzeria Pizza 215-32 Hillside Ave Queens Village, NY 11427. Free Delivery call us (347) 456 5287',
 }
 
 export default function RootLayout({
