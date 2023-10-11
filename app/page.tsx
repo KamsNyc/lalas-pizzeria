@@ -30,7 +30,7 @@ export default function Home() {
         <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Our Menu</h1>
         <p></p>
         <p className=" text-center text-md md:text-lg text-black font-semibold">Address: 215-32 Hillside Ave Queens Village, NY 11427</p>
-        <p className="text-md py-2 text-center text-md md:text-lg font-extrabold cursor-pointer">Call us (347) 426 5287</p>
+        <p className="py-2 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</p>
 
         <div className="text-center pt-4"> <Link className="py-2 px-4 bg-red-500 rounded-xl cursor-pointer hover:scale-105 ease-in duration-300" href={'/'}>Order Online</Link></div>
 
