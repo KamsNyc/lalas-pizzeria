@@ -30,7 +30,7 @@ export default function Home() {
 
         <Logo />
         <p className="text-center pt-4 mb-[-16px] font-bold text-sm md:text-lg">HOURS: OPEN 7 DAYS - 11AM - 10PM </p>
-        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Lala&apos;s Pizzeria Menu</h1>
+        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Lalas Pizzeria Menu</h1>
         <p></p>
         <p className=" text-center text-md md:text-lg text-black font-semibold">Address: 215-32 Hillside Ave Queens Village, NY 11427</p>
         <p className="py-2 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</p>
