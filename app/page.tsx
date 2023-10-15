@@ -2,9 +2,12 @@ import Image from "@/node_modules/next/image";
 import Link from "@/node_modules/next/link";
 import Logo from "./(components)/Logo";
 
+
+
 export default function Home() {
   return (
     <main className="flex min-h-screen justify-center my-20 w-full px-2 md:p-4">
+      
         
       <section id="top" className="w-full">
       <div id="wrapper" className="flex items-center justify-center pb-4">
@@ -27,7 +30,7 @@ export default function Home() {
 
         <Logo />
         <p className="text-center pt-4 mb-[-16px] font-bold text-sm md:text-lg">HOURS: OPEN 7 DAYS - 11AM - 10PM </p>
-        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Our Menu</h1>
+        <h1 className="pt-4 pb-2 text-7xl sm:text-8xl  font-bold text-[#FE0000] text-center">Lala's Pizzeria Menu</h1>
         <p></p>
         <p className=" text-center text-md md:text-lg text-black font-semibold">Address: 215-32 Hillside Ave Queens Village, NY 11427</p>
         <p className="py-2 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</p>
