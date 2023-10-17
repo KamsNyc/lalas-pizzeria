@@ -72,7 +72,7 @@ function page() {
         </section>
 
         {/* PROMOTIONS */}
-        <section id="promotions" className='mt-6 px-40'>
+        <section id="promotions" className='mt-6 px-0 md:px-40'>
         <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Promotions</h1>
         <Alert>
     <LocalOfferIcon/>
