@@ -14,7 +14,7 @@ function page() {
 
     <section className="flex min-h-screen justify-center w-full px-2 md:px-4">
     
-      <main id="top" className="w-full">
+      <main id="top" className="w-full mt-14">
 
         {/* SOCIAL LINKS */}
       <section id="wrapper" className="flex items-center justify-center py-1 border-b gap-4 mb-10 mt-1">
@@ -87,14 +87,14 @@ function page() {
         </section>
 
          {/* REVIEWS */}
-         <section id="promotions" className='mt-10 '>
+         <section id="reviews" className='mt-10 '>
         <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Google Reviews</h1>
         <GoogleReview />
 
         </section>
 
          {/* INSTAGRAM FEED */}
-         <section id="promotions" className='mt-20 '>
+         <section id="instagramfeed" className='mt-20 '>
         <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Instagram</h1>
         <InstagramFeed />
 
