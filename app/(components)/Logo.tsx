@@ -5,16 +5,16 @@ import React from 'react'
 const Logo = () => {
 
   return (
-    <div
+    <section
       className='flex items-center justify-center'
     >
       <Image
         src="/Logo.png"
         width={300}
         height={300}
-        alt="Picture of the author"
+        alt="Lalas pizzeria Logo located in Queens Village"
       />
-    </div>
+    </section>
   )
 }
 
