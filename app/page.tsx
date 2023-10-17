@@ -75,7 +75,7 @@ function page() {
         <section id="promotions" className='mt-6 px-40'>
         <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Promotions</h1>
         <Alert>
-    <LocalOfferIcon size='5px' />
+    <LocalOfferIcon/>
   <AlertTitle>BUY ANY 2 SLICES AND GET A SODA FOR FREE</AlertTitle>
   <AlertDescription className=''>
     <span>AVALIABLE: SUNDAY - WEDNESDAY | 4PM - 8PM</span>
