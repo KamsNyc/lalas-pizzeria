@@ -10,7 +10,7 @@ import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 function page() {
   return (
 
-    <section className="flex min-h-screen justify-center w-full md:px-4">
+    <section className="flex min-h-screen justify-center w-full px-2 md:px-4">
     
       <main id="top" className="w-full">
 

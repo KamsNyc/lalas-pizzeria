@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='flex items-center justify-between border-y border-[#FE0000] text-[14px] h-14 font-bold gap-2 px-16 lg:px-96'>
+    <nav className='flex items-center justify-between border-y border-[#FE0000] text-[14px] h-14 font-bold gap-2 px-4 lg:px-96'>
         <section className='flex items-center gap-4 uppercase justify-center'>
         <Link className='hidden md:block hover:scale-105 duration-300 ease-in' href={'/'}>Home</Link>
         <Link className='hover:scale-105 duration-300 ease-in' href={'#menu'}>Menu</Link>
