@@ -5,6 +5,8 @@ import Logo from './(components)/Logo'
 import Footer from './(components)/Footer'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import GoogleReview from './(components)/GoogleReview'
+import InstagramFeed from './(components)/InstagramFeed'
 
 
 function page() {
@@ -48,7 +50,7 @@ function page() {
         </div>
         </section>
 
-
+          {/* REVIEW */}
         <section id='menu' className=" items-center justify-center mt-6 mb-4 md:p-10">
             <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Menu</h1>
           <div className="flex w-full justify-center items-center">
@@ -84,10 +86,17 @@ function page() {
 
         </section>
 
-         {/* PROMOTIONS */}
-         <section id="promotions" className='mt-6 '>
+         {/* REVIEWS */}
+         <section id="promotions" className='mt-10 '>
         <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Google Reviews</h1>
-        
+        <GoogleReview />
+
+        </section>
+
+         {/* INSTAGRAM FEED */}
+         <section id="promotions" className='mt-20 '>
+        <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Instagram</h1>
+        <InstagramFeed />
 
         </section>
         
