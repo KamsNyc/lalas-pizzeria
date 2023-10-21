@@ -17,7 +17,7 @@ function page() {
       <main id="top" className="w-full mt-14">
 
         {/* SOCIAL LINKS */}
-      <section id="wrapper" className="flex items-center justify-center py-1 border-b gap-4 mb-10 mt-1">
+      <section id="wrapper" className="flex items-center justify-center py-1 border-b gap-4 mb-4 mt-1">
           
         <Link target="_blank" href='https://www.instagram.com/lalaspizzeria/' rel="noopener noreferrer" ><Image className=" hover:scale-105 duration-300 ease-in"
         src="/instagram2.svg"
@@ -36,11 +36,12 @@ function page() {
         
         {/* HERO */}
         <section>
-        <h3 className=" text-center text-md md:text-xl text-black font-semibold mb-4">Address: 215-32 Hillside Ave Queens Village, NY 11427</h3>
+        <h1 className="md:mt-10 text-5xl sm:text-8xl font-bold text-[#FE0000] text-center">Lalas Pizzeria</h1>
+        <h4 className="text-center pb-3 font-medium text-base md:text-xl">HOURS: OPEN 7 DAYS - 11AM - 10PM </h4>
         <Logo />
-        <h4 className="text-center pt-4 mb-[-16px] font-bold text-lg md:text-xl">HOURS: OPEN 7 DAYS - 11AM - 10PM </h4>
-        <h1 className="pt-4 pb-3 text-6xl sm:text-8xl  font-bold text-[#FE0000] text-center">Lalas Pizzeria</h1>
-        <h2 className="py-2 mb-4 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</h2>
+        
+        <h3 className=" text-center text-md md:text-xl text-black font-semibold py-2">Address: 215-32 Hillside Ave Queens Village, NY 11427</h3>
+        <h2 className="mb-5 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</h2>
 
         <div id="wrapper" className='flex items-center justify-center gap-4'>
         <Link className="py-2 px-4 bg-gray-50 text-[#fe0000] rounded-xl cursor-pointer hover:scale-105 ease-in duration-300 font-bold border" href='https://clover.com/online-ordering/lalas-pizzeria-queens' target="_blank" rel="noopener noreferrer">Order Online</Link>
@@ -51,7 +52,7 @@ function page() {
         </section>
 
           {/* REVIEW */}
-        <section id='menu' className=" items-center justify-center mt-6 mb-4 md:p-10">
+        <section id='menu' className=" items-center justify-center mt-16 mb-4 md:p-10">
             <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Menu</h1>
           <div className="flex w-full justify-center items-center">
           <Image className="cursor-pointer rounded-xl"
@@ -74,8 +75,8 @@ function page() {
         </section>
 
         {/* PROMOTIONS */}
-        <section id="promotions" className='mt-6 px-0 md:px-40'>
-        <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Promotions</h1>
+        <section id="promotions" className='mt-16 px-0 md:px-40'>
+        <h1 className='uppercase text-center text-3xl md:text-4xl  text-[#FE0000] tracking-wide font-bold pb-6'>Our Promotions</h1>
         <Alert>
     <LocalOfferIcon/>
   <AlertTitle>BUY ANY 2 SLICES AND GET A SODA FOR FREE</AlertTitle>
@@ -87,15 +88,15 @@ function page() {
         </section>
 
          {/* REVIEWS */}
-         <section id="reviews" className='mt-10 '>
-        <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Google Reviews</h1>
+         <section id="reviews" className='mt-16 '>
+        <h1 className='uppercase text-center text-3xl md:text-4xl text-[#FE0000] tracking-wide font-bold pb-6'>Google Reviews</h1>
         <GoogleReview />
 
         </section>
 
          {/* INSTAGRAM FEED */}
-         <section id="instagramfeed" className='mt-20 '>
-        <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Instagram</h1>
+         <section id="instagramfeed" className='mt-16 '>
+        <h1 className='uppercase text-center text-3xl md:text-4xl text-[#FE0000] tracking-wide font-bold'>Our Instagram</h1>
         <InstagramFeed />
 
         </section>
