@@ -77,11 +77,21 @@ function page() {
         {/* PROMOTIONS */}
         <section id="promotions" className='mt-16 px-0 md:px-40'>
         <h1 className='uppercase text-center text-3xl md:text-4xl  text-[#FE0000] tracking-wide font-bold pb-6'>Our Promotions</h1>
-        <Alert>
+
+        {/* PROMO 1 */}
+        <Alert className='mb-6 md:mb-12'>
     <LocalOfferIcon/>
   <AlertTitle>BUY ANY 2 SLICES AND GET A SODA FOR FREE</AlertTitle>
   <AlertDescription className=''>
-    <span>AVALIABLE: SUNDAY - WEDNESDAY | 4PM - 8PM</span>
+    <span><strong>AVALIABLE: SUNDAY - TUESDAY | 12PM - 4PM</strong></span>
+  </AlertDescription >
+</Alert>
+      {/* PROMO 2 */}
+<Alert>
+    <LocalOfferIcon/>
+  <AlertTitle>HALLOWEEN SPECIAL </AlertTitle>
+  <AlertDescription className=''>
+    <span><strong>COMING 10/30/23 KEEP AN EYE OUT</strong></span>
   </AlertDescription >
 </Alert>
 
