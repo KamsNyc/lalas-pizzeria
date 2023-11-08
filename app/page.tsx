@@ -87,13 +87,13 @@ function page() {
   </AlertDescription >
 </Alert>
       {/* PROMO 2 */}
-<Alert>
+{/* <Alert>
     <LocalOfferIcon/>
   <AlertTitle>HALLOWEEN SPECIAL </AlertTitle>
   <AlertDescription className=''>
     <span><strong>COMING 10/30/23 KEEP AN EYE OUT</strong></span>
   </AlertDescription >
-</Alert>
+</Alert> */}
 
         </section>
 
