@@ -98,18 +98,18 @@ function page() {
         </section>
 
          {/* REVIEWS */}
-         <section id="reviews" className='mt-16 '>
+         {/* <section id="reviews" className='mt-16 '>
         <h1 className='uppercase text-center text-3xl md:text-4xl text-[#FE0000] tracking-wide font-bold pb-6'>Google Reviews</h1>
         <GoogleReview />
 
-        </section>
+        </section> */}
 
          {/* INSTAGRAM FEED */}
-         <section id="instagramfeed" className='mt-16 '>
+         {/* <section id="instagramfeed" className='mt-16 '>
         <h1 className='uppercase text-center text-3xl md:text-4xl text-[#FE0000] tracking-wide font-bold'>Our Instagram</h1>
         <InstagramFeed />
 
-        </section>
+        </section> */}
         
         <footer>
         <h2 className="text-center text-2xl cursor-pointer text-bold hover:text-[#b10000] pb-2"><Link href={'#top'}>RETURN TO TOP</Link></h2>
