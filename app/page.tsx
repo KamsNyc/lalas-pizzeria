@@ -44,7 +44,7 @@ function page() {
         <h2 className="mb-5 text-center text-md md:text-lg cursor-pointer">Call us (347) 426 5287</h2>
 
         <div id="wrapper" className='flex items-center justify-center gap-4'>
-        <Link className="py-2 px-4 bg-gray-50 text-[#fe0000] rounded-xl cursor-pointer hover:scale-105 ease-in duration-300 font-bold border" href='https://clover.com/online-ordering/lalas-pizzeria-queens' target="_blank" rel="noopener noreferrer">Order Online</Link>
+        <Link className="py-2 px-4 bg-gray-50 text-[#FF8000] rounded-xl cursor-pointer hover:scale-105 ease-in duration-300 font-bold border flex item-center justify-between gap-2" href='http://menus.fyi/6946816' target="_blank" rel="noopener noreferrer"><Image src={'/grubhub.svg'} alt='grubhub menu' width={25} height={25} />Order Online</Link>
 
         <Link className="py-2 px-4 bg-gray-50 rounded-xl cursor-pointer hover:scale-105 ease-in duration-300 font-bold text-[#fe0000] border" href="https://www.google.com/maps/place/Lala's+Pizzeria/@40.7271297,-73.7513489,17z/data=!3m1!4b1!4m6!3m5!1s0x89c261fe9f6cc74f:0xa6bfb34a206c0c17!8m2!3d40.7271297!4d-73.748774!16s%2Fg%2F11vbwq39_x?entry=ttu" target="_blank" rel="noopener noreferrer">Open in Maps</Link>
 
