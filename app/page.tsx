@@ -81,19 +81,20 @@ function page() {
         {/* PROMO 1 */}
         <Alert className='mb-6 md:mb-12'>
     <LocalOfferIcon/>
-  <AlertTitle>BUY ANY 2 SLICES AND GET A SODA FOR FREE</AlertTitle>
+  <AlertTitle>AVALIABLE: SUNDAY - TUESDAY | 12PM - 4PM</AlertTitle>
   <AlertDescription className=''>
-    <span><strong>AVALIABLE: SUNDAY - TUESDAY | 12PM - 4PM</strong></span>
+    <span><strong>BUY ANY 2 SLICES AND GET A SODA FOR FREE</strong></span>
   </AlertDescription >
 </Alert>
       {/* PROMO 2 */}
-{/* <Alert>
+<Alert>
     <LocalOfferIcon/>
-  <AlertTitle>HALLOWEEN SPECIAL </AlertTitle>
-  <AlertDescription className=''>
-    <span><strong>COMING 10/30/23 KEEP AN EYE OUT</strong></span>
+  <AlertTitle>NOV-23 - THANKSGIVING SPECIAL </AlertTitle>
+  <AlertDescription className='flex-col flex'>
+    <span><strong>Buy 3 Cheese Pies, Get 1 Cheese Pie Free</strong></span>
+    <span><strong>Buy 2 Cheese Slices, Get a Soda Free</strong></span>
   </AlertDescription >
-</Alert> */}
+</Alert>
 
         </section>
 
