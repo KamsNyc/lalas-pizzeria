@@ -86,7 +86,7 @@ function page() {
     <span><strong>BUY ANY 2 SLICES AND GET A SODA FOR FREE</strong></span>
   </AlertDescription >
 </Alert>
-      {/* PROMO 2 */}
+      {/* PROMO 2
 <Alert>
     <LocalOfferIcon/>
   <AlertTitle>NOV-23 - THANKSGIVING SPECIAL </AlertTitle>
@@ -94,7 +94,7 @@ function page() {
     <span><strong>Buy 3 Cheese Pies, Get 1 Cheese Pie Free</strong></span>
     <span><strong>Buy 2 Cheese Slices, Get a Soda Free</strong></span>
   </AlertDescription >
-</Alert>
+</Alert> */}
 
         </section>
 
