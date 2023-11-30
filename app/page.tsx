@@ -59,6 +59,7 @@ function page() {
               src="/MenuFront.png"
               width={2550}
               height={3300}
+              priority
               alt="lala's front menu page"
             />
           </div>
@@ -68,6 +69,7 @@ function page() {
               src="/MenuBack.png"
               width={2550}
               height={3300}
+              priority
               alt="lala's back menu page"
             />
           </div>

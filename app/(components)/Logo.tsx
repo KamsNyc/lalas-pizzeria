@@ -12,6 +12,7 @@ const Logo = () => {
         src="/Logo.png"
         width={300}
         height={300}
+        priority
         alt="Lalas pizzeria Logo located in Queens Village"
       />
     </section>
