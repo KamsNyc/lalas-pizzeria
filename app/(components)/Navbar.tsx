@@ -22,9 +22,9 @@ function Navbar() {
         </Link>
         <Link
           className="hover:scale-105 duration-300 ease-in"
-          href={"#reviews"}
+          href={"/catering"}
         >
-          Reviews
+          Catering
         </Link>
       </section>
 

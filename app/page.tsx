@@ -5,8 +5,6 @@ import Logo from './(components)/Logo'
 import Footer from './(components)/Footer'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
-import GoogleReview from './(components)/GoogleReview'
-import InstagramFeed from './(components)/InstagramFeed'
 
 
 function page() {
