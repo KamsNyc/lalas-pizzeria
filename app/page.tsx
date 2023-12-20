@@ -86,15 +86,15 @@ function page() {
     <span><strong>BUY ANY 2 SLICES AND GET A SODA FOR FREE</strong></span>
   </AlertDescription >
 </Alert>
-      {/* PROMO 2
+      {/* PROMO 2 */}
 <Alert>
     <LocalOfferIcon/>
-  <AlertTitle>NOV-23 - THANKSGIVING SPECIAL </AlertTitle>
+  <AlertTitle>DEV-25 - CHRISTMAS DAY SPECIAL </AlertTitle>
   <AlertDescription className='flex-col flex'>
-    <span><strong>Buy 3 Cheese Pies, Get 1 Cheese Pie Free</strong></span>
-    <span><strong>Buy 2 Cheese Slices, Get a Soda Free</strong></span>
+    <span><strong>25% OFF, MINIMUM $15</strong></span>
+    <span><strong>FREE LOCAL DELIVERY QUEENS VILLAGE</strong></span>
   </AlertDescription >
-</Alert> */}
+</Alert>
 
         </section>
 
