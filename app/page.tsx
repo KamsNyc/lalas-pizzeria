@@ -89,7 +89,7 @@ function page() {
       {/* PROMO 2 */}
 <Alert>
     <LocalOfferIcon/>
-  <AlertTitle>DEV-25 - CHRISTMAS DAY SPECIAL </AlertTitle>
+  <AlertTitle>DEC-25 - CHRISTMAS HOLIDAY DAY SPECIAL </AlertTitle>
   <AlertDescription className='flex-col flex'>
     <span><strong>25% OFF, MINIMUM $15</strong></span>
     <span><strong>FREE LOCAL DELIVERY QUEENS VILLAGE</strong></span>
