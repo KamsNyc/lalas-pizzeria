@@ -79,19 +79,19 @@ function page() {
         <h1 className='uppercase text-center text-3xl md:text-4xl  text-[#FE0000] tracking-wide font-bold pb-6'>Our Promotions</h1>
 
         {/* PROMO 1 */}
-        <Alert className='mb-6 md:mb-12'>
+        {/* <Alert className='mb-6 md:mb-12'>
     <LocalOfferIcon/>
   <AlertTitle>AVALIABLE: SUNDAY - TUESDAY | 12PM - 4PM</AlertTitle>
   <AlertDescription className=''>
     <span><strong>BUY ANY 2 SLICES AND GET A SODA FOR FREE</strong></span>
   </AlertDescription >
-</Alert>
+</Alert> */}
       {/* PROMO 2 */}
 <Alert>
     <LocalOfferIcon/>
   <AlertTitle>DEC-25 - CHRISTMAS HOLIDAY DAY SPECIAL </AlertTitle>
   <AlertDescription className='flex-col flex'>
-    <span><strong>25% OFF, MINIMUM $15</strong></span>
+    <span><strong>20% OFF, MINIMUM $15</strong></span>
     <span><strong>FREE LOCAL DELIVERY QUEENS VILLAGE</strong></span>
   </AlertDescription >
 </Alert>
