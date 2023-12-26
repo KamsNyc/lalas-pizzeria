@@ -54,7 +54,7 @@ function page() {
             <h1 className='uppercase text-center text-4xl pb-6 text-[#FE0000] tracking-wide font-bold'>Our Menu</h1>
           <div className="flex w-full justify-center items-center">
           <Image className="cursor-pointer rounded-xl"
-              src="/MenuFront.png"
+              src="/lalafrontmenunew.png"
               width={2550}
               height={3300}
               priority
@@ -64,7 +64,7 @@ function page() {
 
           <div className="flex w-full justify-center items-center mt-4 md:mt-10 rotate-180">
           <Image className="cursor-pointer rounded-xl"
-              src="/MenuBack.png"
+              src="/lalabackmenunew.png"
               width={2550}
               height={3300}
               priority
