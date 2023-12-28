@@ -87,14 +87,14 @@ function page() {
   </AlertDescription >
 </Alert> */}
       {/* PROMO 2 */}
-<Alert>
+{/* <Alert>
     <LocalOfferIcon/>
   <AlertTitle>DEC-25 - CHRISTMAS HOLIDAY DAY SPECIAL </AlertTitle>
   <AlertDescription className='flex-col flex'>
     <span><strong>20% OFF, MINIMUM $15</strong></span>
     <span><strong>FREE LOCAL DELIVERY QUEENS VILLAGE</strong></span>
   </AlertDescription >
-</Alert>
+</Alert> */}
 
         </section>
 
