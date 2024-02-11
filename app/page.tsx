@@ -5,6 +5,7 @@ import Logo from './(components)/Logo'
 import Footer from './(components)/Footer'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import PopUp from './(components)/PopUp'
 
 
 function page() {
@@ -122,7 +123,10 @@ function page() {
       </main>
 
 
-
+        {/* POP UP */}
+        <div className="">
+          <PopUp />
+        </div>
 
 
     </section>
