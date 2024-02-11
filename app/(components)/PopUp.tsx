@@ -2,11 +2,8 @@
 import React, { useState } from 'react';
 import SportsFootballIcon from '@mui/icons-material/SportsFootball';
 
-interface Props {
-  onClose: () => void;
-}
 
-const PopUp: React.FC<Props> = () => {
+const PopUp = () => {
   const [showPopUp, setShowPopUp] = useState(true);
 
   const handleClose = () => {
