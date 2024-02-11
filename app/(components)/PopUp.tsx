@@ -6,12 +6,11 @@ interface Props {
   onClose: () => void;
 }
 
-const PopUp: React.FC<Props> = ({ onClose }) => {
+const PopUp: React.FC<Props> = () => {
   const [showPopUp, setShowPopUp] = useState(true);
 
   const handleClose = () => {
     setShowPopUp(false);
-    onClose();
   };
 
   const handleReopen = () => {
