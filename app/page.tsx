@@ -123,10 +123,10 @@ function page() {
       </main>
 
 
-        {/* POP UP */}
-        <div className="">
+        {/* SUPERBOWL POP UP */}
+        {/* <div className="">
           <PopUp />
-        </div>
+        </div> */}
 
 
     </section>
